@@ -5,7 +5,7 @@
     let myNull : null = null;
     let myUndefined : undefined = undefined;
     let myNumberOrString : number | string;
-    
+
     let myVoid : void = undefined;
     function hi(name: string | null) {
         let hello = 'hola ';
@@ -27,9 +27,6 @@
     hiV2(null);
     console.log(myNull);
     console.log(myUndefined);
-    console.log(myNumber);
-    console.log(myString);
-    console.log(myNumberOrString);
     
     
 })();
